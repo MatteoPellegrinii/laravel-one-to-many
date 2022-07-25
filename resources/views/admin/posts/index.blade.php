@@ -1,12 +1,14 @@
 @extends('admin.layouts.base')
 
 @section('mainContent')
+    <h1>Posts</h1>
     <table class="table table-striped">
         <thead>
             <tr>
                 <th>Id</th>
                 <th>Slug</th>
                 <th>Title</th>
+                <th colspan="3">Actions</th>
             </tr>
         </thead>
         <tbody>
