@@ -22,4 +22,9 @@ class AdminController extends Controller
         // dump(Auth::check());
         return view('admin.dashboard');
     }
+
+    public function temp()
+    {
+        return view('admin.temp');
+    }
 }
